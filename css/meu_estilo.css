@@ -1,0 +1,358 @@
+/*ancora deslizante*/
+html{
+   scroll-behavior: smooth;
+}
+
+.header{
+  height: 300px;
+  background-color:#c01313;
+}
+.main{
+  height: 500px;
+  background-color:#3614ce;
+}
+.footer{
+   height: 200px;
+   background-color:#13c047;
+}
+
+.link{
+  color:#FFF;
+  text-decoration:none;
+}
+
+
+/* transição de tela*/
+          @-webkit-keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; } 
+          }
+          @-moz-keyframes fadeIn {
+          0% { opacity: 0;}
+          100% { opacity: 1; }
+          }
+          @-o-keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+          }
+          @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+          }
+
+          .fadeIn {
+          -webkit-animation: fadeIn 3s ease-in-out;
+          -moz-animation: fadeIn 3s ease-in-out;
+          -o-animation: fadeIn 3s ease-in-out;
+          animation: fadeIn 3s ease-in-out;
+          }
+          
+/*transição de imagem*/
+.fadeImg {
+opacity:0;
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out; 
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;}
+
+.fadeImg-delay {  
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1s;}
+      
+
+
+
+ /****************************************************estilos do header*/
+      .hrcentral{     
+        background-color: #ffffff; opacity: 0.5;
+        height: 1px; width: 20px;     
+      }
+      #ClickCPF{
+          background-color: rgba(0,0,0,0); border: 0px; 
+      }
+      #ClickCNPJ{
+          background-color: rgba(0,0,0,0); border: 0px;        
+      }
+      #ClickAuto{
+          background-color: rgba(0,0,0,0); border: 0px;        
+      }
+      .entrada{
+         background-color: rgba(0,0,0,0); border: 0px;     
+      }  
+      .principal{
+         /*background-color: rgba(255,255,0,0.5);*/
+       margin-bottom: 50px;
+       /*background-image: url(../img/cab1.png); */
+        height: 600px;
+        background-repeat: no-repeat; 
+         /*preenche toda a tela*/  
+        /*padding-top: 10px;*/    
+      } 
+      .menu{
+        width: 70%; color: #ffffff; font-weight:bold; font-family: 'Raleway', sans-serif; 
+      }   
+      .logo{
+        width: 100%;
+      }
+      .cadastro{
+        margin-left: 10px; background-color: rgba(0,0,0,0); border: 0px;  
+      }
+      .menubottom{
+         margin-top: -10px;
+      }
+      .links{
+        color:#ffffff; font-weight:bold; font-family: 'Raleway', sans-serif; background-color: rgba(0,0,0,0); border: 0px;
+      }
+      .links2{
+        color:#ffffff; font-weight:bold; font-family: 'Raleway', sans-serif; background-color: rgba(0,0,0,0); border: 0px;
+      }
+      .links2:hover{
+          color: #606060;
+      }
+      .linhameio{
+        margin-top: 20%;
+      }
+      .colcentral{
+        text-align: center; color: #ffffff; margin: auto auto;
+      }
+      .titulo{
+         width: 100%; font-weight:800; font-size: 50pt; font-family: 'Raleway', sans-serif;
+      }
+      .titulomob{
+         width: 100%; font-weight:900; font-size: 2em; font-family: 'Raleway', sans-serif;
+      }
+      .linhabaixa{
+        text-align: center;
+      }
+
+/*******************************************************************estilos footer*/
+hr{     
+        background-color: #ffffff;
+        height: 1px;
+        opacity: 0.5;
+        width: 100%;
+      }
+      .marca{
+        margin: auto auto;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+      .rodape{
+        padding-top: 40px; background-color: rgb(18,19,60); padding-bottom: 10px; margin-top: 50px;
+      }
+      h3{
+        color: #ffffff;
+        margin-bottom: 0px;
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+      }
+      h2{
+        font-size: 18pt;
+        color: rgb(61,65,3);
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #03b23e;
+      }
+      .icon{
+        width: 20%;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+      .topo{
+         font-family: 'Raleway', sans-serif; font-weight: bold;
+         color: #03b23e;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+
+/******************************************************estilo home*/
+        .principalhome{
+         width: 50%;  padding: 10px;
+        }
+        .titulohome{
+           width: 40%; font-size: 2.5em; margin-bottom: 20px; border-top: 1px solid black; padding-top: 10px; margin-top: 20px;
+           font-family: 'Raleway', sans-serif; color: #606060; font-weight: lighter;
+        }
+        .btntitulo{
+          font-family: 'Raleway', sans-serif; font-size: 1em; font-weight: bold;
+        }
+        
+        .btntitulo2{
+          font-weight: 900; font-size: 1em;
+        }
+        .textos{
+          font-family: 'Raleway', sans-serif; color: #606060; line-height: 1.2em;
+        }
+        .meubtn{
+          width: 40%;  height: 100%; margin: auto auto;     
+        }
+        .linhabtn{
+          width: 50%; height: 80px; text-align: center;
+        }
+        .btncompra{
+          width: 60%;
+          height: 70px;
+          border-radius: 0px;
+          font-family: 'Raleway', sans-serif;
+          text-transform: uppercase;
+          font-size: 190%;
+          font-weight: 800;
+          background-color: #03b23e;
+
+        }
+
+        .etapas{
+          color: #03b23e; font-weight: bold; font-family: 'Raleway', sans-serif;
+        }
+        .numero{
+          font-size: 2em;
+        }
+        .btnpreco{
+          width: 40%;
+          font-size: 100%;
+          height: 70px;
+          border-radius: 0px;
+        }
+        .btnpreco:hover{
+          background-color: rgba(0,0,0,0);
+          color: green;
+        }
+        .btnconsultas{
+          text-align: center;
+          margin-bottom: 10px;
+          margin-top: 10px;    
+        }
+        .btnauto{
+        }
+        
+        .btnauto:hover{
+          background-color: #e7b141;
+          color: #ffff;
+        }
+        .nav-link:hover{
+        border-bottom: 1px solid black; color: #e7b141; font-weight: bolder;       
+        }
+        .nav-link{
+        color: #606060;
+         font-family: 'Raleway', sans-serif;
+        }
+        .mascara{
+          color: #ffff; text-align: center; font-size: 15pt; width: 100%; font-family: 'Raleway', sans-serif;
+        }
+
+        
+/*******************************************************estilo encontrar consulta*/ 
+.colencontrar{
+  margin: 5px;
+  height: 100px;
+  padding: 15px 10px 10px 10px;
+  color: #606060;
+  font-family: 'Raleway', sans-serif;
+
+}    
+.spantexto{
+  line-height: 1em;
+}
+.principalencontrar{
+  margin-top: 40px;
+}
+.iconeencontrar{
+  width: 100%;
+}
+.legendacarousel{
+  color: #606060; font-family: 'Open Sans', sans-serif; font-weight: bold;
+}
+.numbencontrar{
+  font-family: 'Open Sans', sans-serif; font-weight: 800; margin-top: 10px;
+}
+.textencontrar{
+  font-family: 'Raleway', sans-serif; margin-top: 10px;
+}
+
+/*********************************************************** estilo como consultar*/
+.principalcomo{
+  margin-top: 50px;
+  background: linear-gradient(to right, #e7b141, #652300);
+  padding: 40px;
+  height: 100%;
+}
+.numbtroca{
+  font-family: 'Open Sans'; color: #ffff;
+}
+.container2{
+  width: 60%;
+  
+}
+.colsnumber{
+  height: 100px; font-family: 'Open Sans';
+}
+.linhatop{
+  border-top: solid 1px black;background-color: #ffffff;  
+}
+
+.trocacomo{
+  font-family: 'Open Sans', sans-serif; color: #ffff; font-size: 15pt;
+}
+.iconcomo{
+  width: 80%;
+  margin: auto auto;
+}
+.divicon{
+  text-align: left;
+}
+.meucarosel{
+  height: 350px;
+}
+.numb{
+      font-size: 6em; height: 150px; width: 20%; text-align: center; font-family: 'Open Sans', sans-serif;
+    }
+    .numbtext{
+      height: 100px; margin: auto auto; width: 80%; padding-top:15px; padding-left: 10px; font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+    .linhanumber{
+      height: 150px; color: rgba(255,255,255,0.5);
+      height: 100%;
+    }
+    .linhanumber:hover{
+      color: rgb(255,255,255);
+
+    }
+    .linhaborda{
+      
+    }
+    .btnnumber:hover{
+        text-decoration: none;
+        color: rgb(255,255,255);
+    }
+    .btnnumber{
+        height: 150px; color: rgba(255,255,255,0.5);
+    }
+    .numbermob{
+      font-family: 'Open Sans', sans-serif; font-weight: bold;
+    }
+
+
+/************************************************************estilo cadastro*/
+.principalcadastro{
+  margin-top: 100px;
+}
+.containercadastro{
+  width: 80%;
+  
+}
+.form-control{
+  margin-bottom: 10px;
+}
+.btnenviar{
+  width: 100%;
+  margin-bottom: 10px;
+}
